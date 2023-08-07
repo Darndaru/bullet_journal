@@ -1,20 +1,17 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
-// Create schema for task
-const TodoSchema = new Schema({
-  action: {
+
+const UserSchema = new Schema({
+  email: {
     type: String,
+    unique: true,
     required: [true, 'The todo text field is required'],
   },
-  action_type: {
+  password: {
     type: String,
     required: [true, 'The type field is required'],
   },
-  date: {
-    type: Date,
-    required: [true, 'The date field is required'],
-  },
 });
 // Create model for task
-const Todo = mongoose.model('todo', TodoSchema);
-module.exports = Todo;
+const User = mongoose.model('todo', UserSchema);
+module.exports = User;

@@ -5,12 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5a463fd-0530-4a86-827c-ab6c89ee3ce5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Input.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ListTodo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Todo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/todo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/taskController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/userConroller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error/ApiError.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware/ErrorHandleMiddleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware/authMiddleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/taskRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/userRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/todo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +42,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/darua/WebstormProjects/bullet/frontend&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -42,6 +52,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\darua\WebstormProjects\bullet\frontend" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\darua\WebstormProjects\bullet" />
     </key>
@@ -56,7 +69,10 @@
       <updated>1690581998653</updated>
       <workItem from="1690581999885" duration="2240000" />
       <workItem from="1690623227998" duration="4176000" />
-      <workItem from="1690892934049" duration="351000" />
+      <workItem from="1690892934049" duration="7193000" />
+      <workItem from="1691353472598" duration="1163000" />
+      <workItem from="1691405241032" duration="1132000" />
+      <workItem from="1691439042670" duration="2579000" />
     </task>
     <servers />
   </component>
