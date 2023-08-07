@@ -1,0 +1,5 @@
+export const LOGIN_ROUTE = '/login'
+export const REGISTRATION_ROUTE = '/registration'
+export const DAILY_ROUTE = '/'
+export const MONTHLY_ROUTE = '/monthly'
+export const FUTURE_ROUTE = '/future'

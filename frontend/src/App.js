@@ -1,12 +1,14 @@
 import React from 'react';
-import Todo from './components/Todo';
 import './App.css';
+import {BrowserRouter} from "react-router-dom";
+import AppRouter from "./components/AppRouter";
+
 
 const App = () => {
   return (
-    <div className="App">
-      <Todo />
-    </div>
+    <BrowserRouter>
+      <AppRouter />
+    </BrowserRouter>
   );
 };
 export default App;
