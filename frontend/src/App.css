@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Oxygen, sans-serif;
+    font-size: 14px;
+    color: #022300;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100% - 100px);
+    height: 50px;
+    padding: 0 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #469040;
+}
+
+nav {
+    width: 340px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.headerLink {
+    color: #F8F2F9;
+    font-family: Oswald, sans-serif;
+    text-decoration: none;
+}
+.headerLink:hover {
+    text-decoration: underline;
+}
+
+.container {
+    height: calc(100% - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #EAEAEA;
+}
+
+h2 {
+    font-family: Oswald, sans-serif;
+    font-size: 20px;
+    margin: 0 0 15px 0;
+    align-self: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    height: 30px;
+    border: solid 1px #DDDDDD;
+    border-radius: 15px;
+    margin: 0;
+    padding: 0 15px;
+    background-color: #F8F2F9;
+}
+input::placeholder {
+    color: #6E7E6E;
+}
+input:focus {
+    outline: none;
+    border: solid 1px #469040;
+}
+input: {
+    background-color: #F8F2F9;
+}
+
+.authInput {
+    /*width: 100%;*/
+    margin-bottom: 10px;
+}
+.authInputLabel {
+    font-size: 15px;
+    margin: 0 0 5px 0;
+}
+
+.authButton {
+    margin: 10px 0 20px 0;
+}
+.authAnotherButton {
+    color: #236D1D;
+}
+
+button {
+    height: 30px;
+    padding: 0 15px;
+    border: solid 1px #469040;
+    border-radius: 15px;
+    background-color: #CFF7CC;
+    font-size: 16px;
+    cursor: pointer;
+}
+

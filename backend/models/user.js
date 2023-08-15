@@ -12,6 +12,5 @@ const UserSchema = new Schema({
     required: [true, 'The type field is required'],
   },
 });
-// Create model for task
-const User = mongoose.model('todo', UserSchema);
+const User = mongoose.models.User || mongoose.model('User', UserSchema);
 module.exports = User;

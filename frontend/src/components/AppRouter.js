@@ -1,15 +1,18 @@
-import React from 'react';
-import {Switch, Route, Redirect} from "react-router-dom";
+import React, {useContext} from 'react';
+import {Routes, Route} from "react-router-dom";
 import {publicRoutes} from "../routes"
-import {DAILY_ROUTE} from "../utils/consts";
+import {Context} from "../index";
+
 const AppRouter = () => {
+  const {user} = useContext(Context)
+
+  console.log(user)
   return (
-    <Switch>
+    <Routes>
       {publicRoutes.map(({path, Component}) =>
-        <Route path={path} component={Component} exact />)
+        <Route path={path} element={Component} />)
       }
-      <Redirect to={DAILY_ROUTE} />
-    </Switch>
+    </Routes>
   );
 };
 

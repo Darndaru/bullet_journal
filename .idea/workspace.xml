@@ -5,26 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5a463fd-0530-4a86-827c-ab6c89ee3ce5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/AppRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/DailyLog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/FutureLog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/MonthlyLog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/NotFound.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/store/UserStore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/utils/consts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/TaskStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/taskController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/taskController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/userConroller.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/userConroller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/error/ApiError.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/error/ApiError.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Todo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/AppRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/AppRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/DailyLog.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/DailyLog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/FutureLog.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/FutureLog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/MonthlyLog.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/MonthlyLog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/NotFound.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/NotFound.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store/UserStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/UserStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/utils/consts.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/utils/consts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middleware/ErrorHandleMiddleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/middleware/ErrorHandleMiddleware.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middleware/authMiddleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/middleware/authMiddleware.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/todo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/taskRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/taskRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/userRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/userRouter.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +60,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/darua/WebstormProjects/bullet/frontend&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/darua/WebstormProjects/bullet&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -61,9 +74,11 @@
       <recent name="C:\Users\darua\WebstormProjects\bullet\frontend" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\darua\WebstormProjects\bullet\frontend\public" />
+      <recent name="C:\Users\darua\WebstormProjects\bullet\backend" />
+      <recent name="C:\Users\darua\WebstormProjects\bullet" />
       <recent name="C:\Users\darua\WebstormProjects\bullet\frontend\src\components" />
       <recent name="C:\Users\darua\WebstormProjects\bullet\frontend\src\pages" />
-      <recent name="C:\Users\darua\WebstormProjects\bullet" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -80,6 +95,12 @@
       <workItem from="1691353472598" duration="1163000" />
       <workItem from="1691405241032" duration="1132000" />
       <workItem from="1691439042670" duration="6086000" />
+      <workItem from="1691520516726" duration="4466000" />
+      <workItem from="1691763099081" duration="2417000" />
+      <workItem from="1691839236435" duration="4021000" />
+      <workItem from="1691961999649" duration="4186000" />
+      <workItem from="1692011595222" duration="619000" />
+      <workItem from="1692087968818" duration="12109000" />
     </task>
     <servers />
   </component>

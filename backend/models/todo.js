@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
+
 // Create schema for task
 const TodoSchema = new Schema({
   action: {
@@ -15,6 +16,6 @@ const TodoSchema = new Schema({
     required: [true, 'The date field is required'],
   },
 });
-// Create model for task
-const Todo = mongoose.model('todo', TodoSchema);
+
+const Todo = mongoose.models.Todo || mongoose.model('Todo', TodoSchema);
 module.exports = Todo;

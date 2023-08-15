@@ -3,7 +3,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const routes = require('./routes/api');
 const app = express();
-const errorHandler = require('middleware/ErrorHandleMiddleware')
+const errorHandler = require('./middleware/ErrorHandleMiddleware')
 
 const port = process.env.PORT || 5000;
 
