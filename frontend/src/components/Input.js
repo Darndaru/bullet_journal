@@ -29,7 +29,12 @@ class Input extends Component {
     let { action } = this.state;
     return (
       <div>
-        <input type="text" onChange={this.handleChange} value={action} />
+        <input
+          type="text"
+          onChange={this.handleChange}
+          value={action}
+          className={"taskInput"}
+        />
         <button onClick={this.addTodo}>add todo</button>
       </div>
     );

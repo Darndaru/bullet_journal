@@ -1,9 +1,10 @@
 import React from 'react';
+import DayCard from "../components/DayCard";
 
 const DailyLog = () => {
   return (
-    <div>
-      DAY
+    <div className={"container"}>
+      <DayCard />
     </div>
   );
 };
