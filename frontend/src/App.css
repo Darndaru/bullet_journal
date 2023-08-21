@@ -190,6 +190,42 @@ textarea {
     flex-direction: row-reverse;
 }
 
+.monthLogContainer {
+    min-height: calc(100% - 100px);
+    width: 1100px;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-template-rows: repeat(2, 1fr);
+    margin: 0 auto;
+}
+.monthVerticalCard {
+    grid-row: span 2;
+}
+.monthVertical {
+    display: flex;
+    flex-direction: column;
+}
+.dayInMonth {
+    display: flex;
+    flex-direction: row;
+}
+.dayNumber,
+.weekday {
+    width: 30px;
+    padding: 10px 0;
+    text-align: center;
+    margin: 0 4px 0 0;
+    background-color: #CFF7CC;
+    border-right: solid #469040 1px;
+}
+.dailyEvent {
+    align-self: center;
+}
+.monthVertical .react-calendar__month-view__weekdays {
+    display: none;
+}
+
 /* -------------------------------- CALENDAR -----------------------------*/
 .react-calendar {
     width: 290px;
@@ -198,9 +234,6 @@ textarea {
     background-color: #EAEAEA;
     border-radius: 15px;
     font-family: Oxygen, sans-serif;
-}
-.react-calendar__navigation {
-    display: none;
 }
 .react-calendar__month-view__weekdays {
     height: 30px;

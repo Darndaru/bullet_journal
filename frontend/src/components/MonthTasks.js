@@ -2,7 +2,7 @@ import React from 'react';
 
 
 const MonthTasks = (props) => {
-  const monthName = props.month.date.toLocaleString("en-US", { month: "long" });
+  const monthName = props.month.date.toLocaleString("en-US", {month: "long"});
 
   return (
     <div className={"card"}>

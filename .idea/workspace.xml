@@ -5,18 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5a463fd-0530-4a86-827c-ab6c89ee3ce5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/DayCard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/MonthTasks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/MonthView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Task.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/DayInMonth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Habit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Tracker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/http/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Input.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Input.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/DailyLog.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/DailyLog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/FutureLog.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/FutureLog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/MonthTasks.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/MonthTasks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/MonthView.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/MonthView.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/pages/MonthlyLog.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/MonthlyLog.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +78,10 @@
       <workItem from="1692011595222" duration="619000" />
       <workItem from="1692087968818" duration="16454000" />
       <workItem from="1692194373044" duration="14006000" />
-      <workItem from="1692298843817" duration="3958000" />
+      <workItem from="1692298843817" duration="4977000" />
+      <workItem from="1692368293487" duration="6970000" />
+      <workItem from="1692448004223" duration="4361000" />
+      <workItem from="1692648612490" duration="882000" />
     </task>
     <servers />
   </component>
