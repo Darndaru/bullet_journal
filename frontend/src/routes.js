@@ -5,7 +5,7 @@ import FutureLog from "./pages/FutureLog";
 import Auth from "./pages/Auth";
 import NotFound from "./pages/NotFound";
 
-export const publicRoutes = [
+export const privateRoutes = [
   {
     path: DAILY_ROUTE,
     Component: <DailyLog />
@@ -17,7 +17,10 @@ export const publicRoutes = [
   {
     path: FUTURE_ROUTE,
     Component: <FutureLog />
-  },
+  }
+]
+
+export const publicRoutes = [
   {
     path: LOGIN_ROUTE,
     Component: <Auth />

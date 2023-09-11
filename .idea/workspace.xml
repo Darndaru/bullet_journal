@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5a463fd-0530-4a86-827c-ab6c89ee3ce5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/DayInMonth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Habit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Tracker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/http/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/http/userAPI.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/MonthTasks.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/MonthTasks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/MonthView.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/MonthView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/MonthlyLog.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/MonthlyLog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/AppRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/AppRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +79,13 @@
       <workItem from="1692298843817" duration="4977000" />
       <workItem from="1692368293487" duration="6970000" />
       <workItem from="1692448004223" duration="4361000" />
-      <workItem from="1692648612490" duration="882000" />
+      <workItem from="1692648612490" duration="3582000" />
+      <workItem from="1692711331041" duration="644000" />
+      <workItem from="1692821577890" duration="1426000" />
+      <workItem from="1694100818420" duration="1775000" />
+      <workItem from="1694257939220" duration="1057000" />
+      <workItem from="1694371549857" duration="4368000" />
+      <workItem from="1694439477011" duration="625000" />
     </task>
     <servers />
   </component>
