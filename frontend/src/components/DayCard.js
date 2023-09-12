@@ -2,11 +2,23 @@ import React from 'react';
 import Task from "./Task";
 
 const DayCard = () => {
+  const washDishes = {
+    type: "task",
+    text: "Помыть посуду",
+  }
+  const homework = {
+    type: "task",
+    text: "Сделать домашнее задание"
+  }
+  const walkDog = {
+    type: "event",
+    text: "Встретиться с научным руководителем"
+  }
   return (
     <div style={{width: "600px"}} className={"card"}>
       <h2>Today</h2>
       <form className={"taskForm"}>
-        <div className={"taskType"}>•</div>
+        <div className={"taskTypeActive"}>•</div>
         <div className={"taskType"}>o</div>
         <div className={"taskType"}>–</div>
         <input
@@ -16,8 +28,9 @@ const DayCard = () => {
         />
         <button>✔</button>
       </form>
-      <Task />
-      <Task />
+      <Task task={washDishes} />
+      <Task task={homework} />
+      <Task task={walkDog} />
     </div>
   );
 };

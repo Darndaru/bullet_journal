@@ -19,7 +19,7 @@ const Header = () => {
         user.isAuth ?
           <p className={"headerLink"}>{user.name}</p>
           :
-          <Link to={LOGIN_ROUTE} className={"headerLink"}>Sign in</Link>
+          <Link to={LOGIN_ROUTE} className={"headerLink"}>Daruanikko</Link>
       }
     </header>
   );

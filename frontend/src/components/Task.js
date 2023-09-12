@@ -1,13 +1,16 @@
 import React from 'react';
 
-const Task = () => {
+const Task = (props) => {
+  const task = props.task
   let isEditing = false
+
   return (
     <form className={"taskForm"}>
-      <div className={"taskTypeActive"}>•</div>
+      <div className={"taskType"}>
+        {task.type === "event" ? 'o' : '•' }</div>
       <textarea
         className={"taskInput"}
-      >Помыть кота</textarea>
+      >{task.text}</textarea>
       {
         isEditing ?
           <button>✔</button>

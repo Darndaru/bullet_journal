@@ -28,7 +28,7 @@ const Auth = () => {
         <form>
           <p className={"authInputLabel"}>Email</p>
           <input type={"email"}
-                 placeholder={"niceass1999@gmail.com"}
+                 placeholder={"your_email@gmail.com"}
                  className={"authInput"}
                  value={email}
                  onChange={e => setEmail(e.target.value)}
@@ -42,7 +42,7 @@ const Auth = () => {
                 flexDirection: "column"
               }}>
                 <p className={"authInputLabel"}>Username</p>
-                <input placeholder={"NiceAss"} className={"authInput"}/>
+                <input placeholder={"Username"} className={"authInput"}/>
               </div>
           }
           <p className={"authInputLabel"}>Password</p>
