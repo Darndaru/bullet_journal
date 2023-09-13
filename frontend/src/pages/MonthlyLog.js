@@ -1,6 +1,5 @@
 import React from 'react';
 import DayInMonth from "../components/DayInMonth";
-import Tracker from "../components/Tracker";
 
 const MonthlyLog = () => {
   const monthName = new Date().toLocaleString("en-US", {month: "long"});
